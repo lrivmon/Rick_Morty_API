@@ -1,0 +1,50 @@
+:root {
+  --fuenteHeading: 'PT Sans', sans-serif;
+  --fuenteParrafos: 'Open Sans', sans-serif;
+
+  --primario: aliceblue;
+  --secundario: white;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1 rem = 10px */    
+}
+body{
+   background-color: var(--primario);
+   font-size: 1.4rem;
+}
+h1, #filters{
+   text-align: center;
+}
+#filters input, #filters #status-filter{
+  padding: 0.8rem 1.6rem;
+  margin: 1rem;
+  font-size: 2rem;
+  border: 0.1rem solid gainsboro;
+  border-radius: 0.5rem;
+}
+
+.container{
+ width: 80%;
+ display: flex;
+ justify-content: center;
+ margin: 0 auto;
+}
+
+#characters{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+.character-card{
+ width: 20rem;
+ margin: 1rem;
+ padding: 1rem;
+ background-color: var(--secundario);
+ border-radius: 0.8rem;
+}
+
+.character-card img{
+ width: 100%;
+}
